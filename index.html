@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- makes the site responsive on phones -->
+  <title>Ace Johnriell A. Advincula | Portfolio</title>
+  <meta name="description" content="Portfolio of Ace Johnriell A. Advincula, a Computer Science student aiming to develop his own game.">
+  <!-- Fonts (needs internet). If offline, the fallback fonts in style.css are used. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== NAVIGATION: each link jumps to a section id ========== -->
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="logo" href="#intro">AJA</a>
+      <ul class="nav-links">
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== CHAPTER 01: INTRODUCTION (HERO) ========== -->
+    <section id="intro" class="chapter hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="chapter-tag">Chapter 01 &middot; Introduction</p>
+          <h1>A new player has entered the game.</h1>
+          <p class="hero-name">Ace Johnriell A. Advincula</p>
+          <p class="hero-intro">Gamer since I was a child, now aiming to develop my own game.</p>
+          <p class="hero-welcome">Welcome! I'm a Computer Science student who loves games, anime and technology. Take a look around and see how I'm leveling up.</p>
+          <a class="btn" href="#journey">Explore My Journey</a>
+        </div>
+
+        <!-- PHOTO PLACEHOLDER: replace the <div class="ph"> with:
+             <img src="images/profile.jpg" alt="Photo of Ace Johnriell A. Advincula"> -->
+        <figure class="frame hero-photo">
+          <img src="img/profile.jpg" alt="Photo of Ace Johnriell A. Advincula">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ========== CHAPTER 02: MY JOURNEY ========== -->
+    <section id="journey" class="chapter">
+      <div class="container split">
+        <!-- PHOTO PLACEHOLDER: replace with <img src="images/journey.jpg" alt="Ace playing or coding"> -->
+        <figure class="frame reveal">
+          <img src="img/journey.png" alt="Ace playing or coding">
+        </figure>
+
+        <div class="reveal">
+          <p class="chapter-tag">Chapter 02 &middot; My Journey</p>
+          <h2>From playing games to creating them.</h2>
+          <p class="lead">I'm a Computer Science student with a growing interest in games and anime.</p>
+          <p>I've always been fascinated by computers. Long before I wrote any code, I was the kid who wanted to understand how the screen, the keyboard and the machine behind them worked together.</p>
+          <p>Playing video games since childhood changed the way I look at technology. Every match made me ask questions: how does the game know where I clicked, how are the levels built, and who decided how the characters move? That curiosity slowly turned me from someone who only plays games into someone who wants to know how they are designed, programmed and developed.</p>
+          <p>Today I'm building that foundation through my Computer Science studies. I'm gaining experience in programming and web development, and I'm creating small projects to practice what I learn. My goal is to keep leveling up until I can develop a video game of my own.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CHAPTER 03: MY SKILLS ========== -->
+    <section id="skills" class="chapter">
+      <div class="container">
+        <p class="chapter-tag">Chapter 03 &middot; My Skills</p>
+        <h2>My current abilities and tools.</h2>
+
+        <div class="skill-groups">
+          <!-- Group 1 -->
+          <article class="skill-group reveal">
+            <h3>Office and Productivity Tools</h3>
+            <ul class="skill-list">
+              <li><span class="icon" aria-hidden="true">W</span>Microsoft Word</li>
+              <li><span class="icon" aria-hidden="true">X</span>Microsoft Excel</li>
+              <li><span class="icon" aria-hidden="true">P</span>Microsoft PowerPoint</li>
+            </ul>
+          </article>
+
+          <!-- Group 2 -->
+          <article class="skill-group reveal">
+            <h3>Programming and Development Languages</h3>
+            <ul class="skill-list">
+              <li><span class="icon" aria-hidden="true">&lt;/&gt;</span>Java</li>
+              <li><span class="icon" aria-hidden="true">&lt;/&gt;</span>Python</li>
+              <li><span class="icon" aria-hidden="true">&lt;/&gt;</span>HTML</li>
+              <li><span class="icon" aria-hidden="true">&lt;/&gt;</span>CSS</li>
+              <li><span class="icon" aria-hidden="true">&lt;/&gt;</span>JavaScript</li>
+              <li><span class="icon" aria-hidden="true">&lt;/&gt;</span>SQL</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CHAPTER 04: PROJECTS ========== -->
+    <section id="projects" class="chapter">
+      <div class="container">
+        <p class="chapter-tag">Chapter 04 &middot; Things I've Created</p>
+        <h2>Every project starts with an idea.</h2>
+
+        <div class="project-grid">
+
+          <!-- Project 1 (featured, spans full width) -->
+          <article class="card card-featured reveal">
+            <!-- SCREENSHOT PLACEHOLDER: replace with <img src="images/tourist-spot.jpg" alt="Tourist Spot Website screenshot"> -->
+            <img src="img/ELYUuu.png" alt="Tourist Spot Website screenshot">
+            <div class="card-body">
+              <h3>Tourist Spot Website</h3>
+              <p>A website featuring tourist destinations in La Union.</p>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card reveal">
+            <!-- SCREENSHOT PLACEHOLDER: replace with <img src="images/flappy-bird.jpg" alt="Flappy Bird screenshot"> -->
+            <img src="img/flappy.png" alt="Flappy Bird screenshot">
+            <div class="card-body">
+              <h3>Flappy Bird</h3>
+              <p>A simple game project.</p>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card reveal">
+            <!-- SCREENSHOT PLACEHOLDER: replace with <img src="images/word-scramble.jpg" alt="Word Scramble screenshot"> -->
+            <img src="img/scramble.png" alt="Word Scramble screenshot">
+            <div class="card-body">
+              <h3>Word Scramble</h3>
+              <p>A simple game project.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CHAPTER 05: CONTACT ========== -->
+    <section id="contact" class="chapter contact">
+      <div class="container contact-inner reveal">
+        <p class="chapter-tag">Chapter 05 &middot; Let's Make Games Together</p>
+        <h2>Ready to start our next adventure?</h2>
+        <p class="lead">I'm always excited to learn, create, and collaborate with people who share the same passion for technology and gaming. Whether it's discussing game ideas, working on a project, or simply connecting, feel free to reach out!</p>
+
+        <ul class="socials">
+          <li>
+            <a href="https://www.facebook.com/hiaceu/" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M14 8V6.5c0-.7.3-1 1-1h2V2h-3c-3 0-4 2-4 4.200V8H7v3.500h3V22h4v-10.500h3l.5-3.500z"/></svg>
+              <span>Facebook</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/trpl.eis/?hl=en" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.500" cy="6.500" r="1" fill="currentColor" stroke="none"/></svg>
+              <span>Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:acejohnadvincula@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              <span>acejohnadvincula@gmail.com</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <p>&copy; 2026 Ace Johnriell A. Advincula. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
